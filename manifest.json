@@ -1,0 +1,11 @@
+{
+    "Name": "LUYADEW VALLEY",
+    "Author": "BasakToasts",
+    "Version": "1.0.0",
+    "Description": "LUYA FANMODE for SDV",
+    "UniqueID": "BasakToasts.LuyaDew",
+    "UpdateKeys": [], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

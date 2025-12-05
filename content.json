@@ -1,0 +1,15 @@
+{
+   "Format": "1.24.0",
+   "Changes": [
+      {
+         "Action": "Load",
+         "Target": "LooseSprites/AquariumFish",
+         "FromFile": "assets/{{Target}}.png"
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/{{Target}}.png"
+      },
+   ]
+}
