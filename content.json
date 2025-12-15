@@ -1,15 +1,128 @@
 {
-   "Format": "1.24.0",
+   "Format": "2.8.0",
    "Changes": [
+      //Stingray patch
       {
-         "Action": "Load",
+         "LogName": "Stingray patch - AquariumFish",
+         "Action": "EditImage",
          "Target": "LooseSprites/AquariumFish",
-         "FromFile": "assets/{{Target}}.png"
+         "FromFile": "assets/{{Target}}.png",
+         "FromArea": {
+            "X": 240,
+            "Y": 144,
+            "Width": 120,
+            "Height": 148
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 144,
+            "Width": 120,
+            "Height": 148
+         }
       },
       {
-         "Action": "Load",
+         "LogName": "Stingray patch - springobjects",
+         "Action": "EditImage",
          "Target": "Maps/springobjects",
-         "FromFile": "assets/{{Target}}.png"
+         "FromFile": "assets/{{Target}}.png",
+         "FromArea": {
+            "X": 320,
+            "Y": 544,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 320,
+            "Y": 544,
+            "Width": 16,
+            "Height": 16
+         }
       },
+      {
+         "LogName": "Stingray patch - Strings/object",
+         "Action": "EditData",
+         "Target": "Strings/Objects",
+         "Entries": {
+            "Stingray_Name": "가올이",
+            "Stingray_Description": "다리털이 부숭숭한 바다의 귀염둥이"
+         },
+         "When": {
+            "Language": "ko"
+         }
+      },
+      {
+         "LogName": "diamond - springobjects",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/{{Target}}.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 48,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 48,
+            "Width": 16,
+            "Height": 16
+         }
+      },
+      {
+         "LogName": "ectoplasm - springobjects",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/{{Target}}.png",
+         "FromArea": {
+            "X": 176,
+            "Y": 576,
+            "Width": 16,
+            "Height": 16
+         },
+         "ToArea": {
+            "X": 176,
+            "Y": 576,
+            "Width": 16,
+            "Height": 16
+         }
+      },
+      {
+         "LogName": "ectoplasm - String",
+         "Action": "EditData",
+         "Target": "Strings/Objects",
+         "Entries": {
+            "Ectoplasm_Name": "심령체",
+            "Ectoplasm_Description": "안경을 쓴 붉은 빛의 무언가. 어떤 이유인지 마법사가 찾고 있습니다.",
+         },
+         "When": {
+            "Language": "ko"
+         }
+      },
+      {
+         "LogName": "spritTorch - String",
+         "Action": "EditData",
+         "Target": "Strings/Objects",
+         "Entries": {
+            "SpiritTorch_Name": "영혼 횃불",
+            "SpiritTorch_Description": "왜 파란빛인걸까요? 선풍기에 갖다대진 마세요"
+         },
+         "When": {
+            "Language": "ko"
+         }
+      },
+      {
+         "LogName": "submarine - maps",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/luyasubmarine.tmx",
+         "ToArea": {
+            "X": 83,
+            "Y": 40,
+            "Width": 7,
+            "Height": 5
+         },
+         "PatchMode": "Overlay",
+         //"When": { "Language": "ko" }
+      }
    ]
 }
