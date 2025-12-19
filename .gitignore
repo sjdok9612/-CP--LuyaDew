@@ -1,0 +1,22 @@
+# 환경 변수 / API 키
+.env
+.env.*
+
+# 개인 설정
+config.local.json
+settings.local.yml
+
+# 비공개 자료
+secrets/
+private_assets/
+Develope/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 빌드 결과물
+dist/
+build/
