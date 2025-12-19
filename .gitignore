@@ -5,11 +5,16 @@
 # 개인 설정
 config.local.json
 settings.local.yml
+.vscode
 
 # 비공개 자료
 secrets/
 private_assets/
-Develope/
+
+# 절대 예외자료
+# Develope/ 서브모듈화 됌. 절대 활성화 하지말것.
+#.gitignore
+#.gitmodules
 
 # IDE / OS
 .vscode/
