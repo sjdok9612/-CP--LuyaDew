@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="343">
- <properties>
-  <property name="DayTiles" value="Front 44 31 369 Front 90 35 369"/>
-  <property name="Fall_Objects" value="372 .9 382 .6"/>
-  <property name="Light" value="44 31 4 90 35 4 44 32 6 90 36 6"/>
-  <property name="NightTiles" value="Front 44 31 368 Front 90 35 368"/>
-  <property name="Outdoors" value="T"/>
-  <property name="Spring_Objects" value="372 .9"/>
-  <property name="Summer_Objects" value="372 .9 394 .5"/>
-  <property name="Warp" value="38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 67 -1 Town 94 109"/>
-  <property name="Winter_Objects" value="392 .8"/>
-  <property name="forceLoadPathLayerLights" value="T"/>
- </properties>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" name="luyasubmarine" tilewidth="16" tileheight="16" tilecount="114" columns="6">
   <image source="submarine_animated.png" width="96" height="304"/>
   <tile id="18">
@@ -159,80 +147,12 @@
    </animation>
   </tile>
  </tileset>
- <layer id="1" name="Back" width="7" height="5">
+ <tileset firstgid="115" name="submarine_animated" tilewidth="16" tileheight="16" tilecount="114" columns="6">
+  <image source="submarine_animated.png" width="96" height="304"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="1" height="1">
   <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
+119
 </data>
  </layer>
- <layer id="2" name="Back2" width="7" height="5">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
- </layer>
- <layer id="3" name="Buildings" width="7" height="5">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
- </layer>
- <layer id="4" name="Buildings2" width="7" height="5">
-  <properties>
-   <property name="Draw" value="Buildings"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-7,8,9,10,11,12,0,
-13,14,15,16,17,18,0,
-19,20,21,22,23,24,0,
-25,26,27,28,29,30,0
-</data>
- </layer>
- <layer id="5" name="Front" width="7" height="5">
-  <data encoding="csv">
-1,2,3,4,0,6,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
- </layer>
- <layer id="6" name="AlwaysFront" width="7" height="5">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
- </layer>
- <layer id="7" name="Paths" width="7" height="5">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
- </layer>
- <objectgroup id="8" name="Back" visible="0"/>
- <objectgroup id="9" name="Back2" visible="0"/>
- <objectgroup id="10" name="Buildings" visible="0"/>
- <objectgroup id="11" name="Buildings2" visible="0"/>
- <objectgroup id="12" name="Front" visible="0"/>
- <objectgroup id="13" name="AlwaysFront" visible="0"/>
- <objectgroup id="14" name="Paths" visible="0"/>
 </map>

@@ -110,6 +110,7 @@
             "Language": "ko"
          }
       },
+      // 잠수함 패치(두 패치를 각각 다른파일로 분리할경우 우선순위( priority ) 설정필요함)
       {
          "LogName": "submarine - maps",
          "Action": "EditMap",
@@ -122,7 +123,22 @@
             "Height": 5
          },
          "PatchMode": "Overlay",
-         //"When": { "Language": "ko" }
+          "Update": "OnDayStart",//its default
+         //"When": //번들을 완료했다
+      },
+      {
+         "LogName": "submarine(open) - maps",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/luyasubmarineOpen.tmx",
+         "ToArea": {
+            "X": 86,
+            "Y": 40,
+            "Width": 1,
+            "Height": 1
+         },
+         "PatchMode": "Overlay",
+         //"When": //번들을 완료했다 AND 루야의 활동시간이다
       }
    ]
 }
