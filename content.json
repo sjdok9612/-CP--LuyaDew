@@ -110,12 +110,13 @@
             "Language": "ko"
          }
       },
+      //close:: default
       // 잠수함 패치(두 패치를 각각 다른파일로 분리할경우 우선순위( priority ) 설정필요함)
       {
          "LogName": "submarine - maps",
          "Action": "EditMap",
          "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/luyasubmarine.tmx",
+         "FromFile": "assets/Maps/luyasubmarine.tbin",
          "ToArea": {
             "X": 83,
             "Y": 40,
@@ -123,7 +124,7 @@
             "Height": 5
          },
          "PatchMode": "Overlay",
-          "Update": "OnDayStart",//its default
+         "Update": "OnDayStart", //its default
          //"When": //번들을 완료했다
       },
       {
@@ -138,7 +139,28 @@
             "Height": 1
          },
          "PatchMode": "Overlay",
-         //"When": //번들을 완료했다 AND 루야의 활동시간이다
+         //"DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
+      },
+      //custom location init
+      {
+         "Action": "Load",
+         "Priority": "Low",
+         "Target": "Maps/LuyaDew_SubmarineInside",
+         "FromFile": "assets/Maps/SubmarineInside.tbin",
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Entries": {
+            "BasakToasts.LuyaSubmarine": {
+               "DisplayName": "루야 잠수함",
+               "CreateOnLoad": {
+                  "MapPath": "Maps/LuyaDew_SubmarineInside"
+               },
+               "IsOutdoors": false,
+               "DefaultArrivalTile": { "X": 16, "Y": 12 }
+            }
+         }
       }
    ]
 }
