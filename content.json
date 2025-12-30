@@ -113,6 +113,21 @@
       //close:: default
       // 잠수함 패치(두 패치를 각각 다른파일로 분리할경우 우선순위( priority ) 설정필요함)
       {
+         "LogName": "submarine - remove Buildings tile",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 86,
+                  "Y": 41
+               },
+               "Layer": "Buildings",
+               "Remove": true
+            }
+         ]
+      },
+      {
          "LogName": "submarine - maps",
          "Action": "EditMap",
          "Target": "Maps/Beach",
@@ -158,7 +173,10 @@
                   "MapPath": "Maps/LuyaDew_SubmarineInside"
                },
                "IsOutdoors": false,
-               "DefaultArrivalTile": { "X": 16, "Y": 12 }
+               "DefaultArrivalTile": {
+                  "X": 16,
+                  "Y": 12
+               }
             }
          }
       }
