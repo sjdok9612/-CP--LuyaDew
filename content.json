@@ -156,6 +156,19 @@
          "PatchMode": "Overlay",
          //"DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
       },
+      // light on 83 41
+      {
+  "Action": "EditMap",
+  "Target": "Maps/Beach",
+  "TextOperations": [
+    {
+      "Operation": "Append",
+      "Target": [ "MapProperties", "Light" ],
+      "Value": "83 41 8",
+      "Delimiter": " "
+    }
+  ]
+},
       //custom location init
       {
          "Action": "Load",
