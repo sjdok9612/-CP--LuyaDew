@@ -219,6 +219,11 @@
          "Action": "EditMap",
          "Target": "Maps/Beach",
          "FromFile": "assets/Maps/luyasubmarineOpen.tmx"
+      },
+      {
+         "LogName":"Black JSON load",
+         "Action":"Load",
+         "Target":"Character/Diualogue/{{ModId}}_luya,Characters/schedules/{{ModId}}_luya,Strings/schedules/{{ModId}}_luya"
       }
    ]
 }
