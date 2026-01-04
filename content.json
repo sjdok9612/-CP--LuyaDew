@@ -158,17 +158,38 @@
       },
       // light on 83 41
       {
-  "Action": "EditMap",
-  "Target": "Maps/Beach",
-  "TextOperations": [
-    {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Light" ],
-      "Value": "83 41 8",
-      "Delimiter": " "
-    }
-  ]
-},
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "TextOperations": [
+            {
+               "Operation": "Append",
+               "Target": [
+                  "MapProperties",
+                  "Light"
+               ],
+               "Value": "83 41 8",
+               "Delimiter": " "
+            },
+            {
+               "Operation": "Append",
+               "Target": [
+                  "MapProperties",
+                  "Light"
+               ],
+               "Value": "82 42 2",
+               "Delimiter": " "
+            },
+            {
+               "Operation": "Append",
+               "Target": [
+                  "MapProperties",
+                  "Light"
+               ],
+               "Value": "83 43 8",
+               "Delimiter": " "
+            }
+         ]
+      },
       //custom location init
       {
          "Action": "Load",
@@ -192,6 +213,12 @@
                }
             }
          }
+      },
+      {
+         "LogName": "submarine(open) - maps",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/luyasubmarineOpen.tmx"
       }
    ]
 }
