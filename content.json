@@ -220,10 +220,23 @@
          "Target": "Maps/Beach",
          "FromFile": "assets/Maps/luyasubmarineOpen.tmx"
       },
+      //Character import
       {
-         "LogName":"Black JSON load",
+         "LogName":"LuyaDew-Black JSON load",
          "Action":"Load",
-         "Target":"Character/Diualogue/{{ModId}}_luya,Characters/schedules/{{ModId}}_luya,Strings/schedules/{{ModId}}_luya"
+         "Target":"Character/Diualogue/{{ModId}}_luya,Characters/schedules/{{ModId}}_luya,Strings/schedules/{{ModId}}_luya",
+         "FromFile":"assets/blank.json"
+      },
+      {
+        	"LogName": "LuyaDew-dispos",
+   		 "Action": "Include",
+   		 "FromFile": "assets/CharacterFiles/data/dispos.json"
+    	},
+      {
+         "LogName": "LuyaDew-Base Portraits",
+         "Action":"Load",
+         "Target":"Portraits/{{ModId}}_NPCname",
+         "FromFile":"assets/CharacterFiles/Portraits/"
       }
    ]
 }
