@@ -233,10 +233,14 @@
    		 "FromFile": "assets/CharacterFiles/data/dispos.json"
     	},
       {
-         "LogName": "LuyaDew-Base Portraits",
-         "Action":"Load",
-         "Target":"Portraits/{{ModId}}_NPCname",
-         "FromFile":"assets/CharacterFiles/Portraits/"
+         "LogName":"LuyaDew-Appearance",
+         "Action":"Include",
+         "FromFile":"assets/CharacterFiles/data/appearance.json"
+      },
+      {
+         "LogName" :"LuyaDew-LoadDialogue",
+         "Action":"Include",
+         "FromFile":"assets/CharacterFiles/Dialouge/dialugoue.json"
       }
    ]
 }

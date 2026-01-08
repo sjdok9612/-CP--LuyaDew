@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "LogName": "Luyadew_dialouge",
+            "Action": "EditData",
+            "Target": "Character/Dialogue/{{ModId}}_luya",
+            "Entries": {
+                "spring": "",
+                "summer": "",
+                "fall": "",
+                "winter": "",
+                //SPECIAL DIALOGUE
+                "Introduction": "{{i18n:Marlon.CharacterDialogue.001}}",
+                "Resort_Entering": "{{i18n:Marlon.CharacterDialogue.002}}",
+                "Resort_Leaving": "{{i18n:Marlon.CharacterDialogue.003}}",
+                "Resort_Shore": "{{i18n:Marlon.CharacterDialogue.004}}",
+                "Resort_Chair": "{{i18n:Marlon.CharacterDialogue.005}}",
+                "Resort_Bar": "{{i18n:Marlon.CharacterDialogue.006}}",
+                "Resort": "{{i18n:Marlon.CharacterDialogue.007}}",
+                "Custom_AdventurerSummit_62_5": "{{i18n:Marlon.CharacterDialogue.008}}",
+                "Reject_458": "{{i18n:Marlon.RejectBouquet}}",
+                "GreenRain": "{{i18n:Marlon.GreenRain}}",
+                "GreenRain_2": "{{i18n:Marlon.GreenRain2}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Marlon.GiftStardropTea}}",
+                "AcceptGift_(O)773": "{{i18n:Marlon.Gift773}}",
+                "AcceptGift_(O)244": "{{i18n:Marlon.Gift244}}",
+                "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Marsh_Tonic": "{{i18n:Marlon.Gift.MarshTonic}}",
+                "AcceptBirthdayGift_Positive": "{{i18n:Marlon.GiftBDpos}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Marlon.GiftBDneg}}",
+                "firstVisit_Caldera": "{{i18n:Marlon.VisitCaldera}}",
+                "mineArea_121": "{{i18n:Marlon.Mine121}}",
+                "married_Lance": "{{i18n:Marlon.MarriedLance}}",
+                "structureBuilt_Slime Hutch": "{{i18n:Marlon.BuiltSlimeHutch}}",
+                "MovieInvitation":
+                
+            }
+        }
+    ]
+}

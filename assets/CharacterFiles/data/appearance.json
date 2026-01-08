@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Base",
+            "Action": "Load",
+            "Target": "Portraits/{{ModId}}_KimLuya, Characters/{{ModId}}_KimLuya",//Portraits/{{<NPCNAME>}}_Spring, Characters/{{<NPCNAME>}}_Spring, Portraits/{{<NPCNAME>}}_Flower, Portraits/{{<NPCNAME>}}_Beach, Characters/{{<NPCNAME>}}_Beach
+            "FromFile": "assets/CharacterFiles/{{TargetPathOnly}}/KimLuya.png"
+        },
+        // {
+        //     "LogName": "<NPCNAME> Appearance Data",
+        //     "Action": "EditData",
+        //     "Target": "Data/Characters",
+        //     "TargetField": [ "{{<NPCNAME>}}", "Appearance" ],
+        //     "Entries": {
+
+        //         //Regular Outfits
+        //         "{{ModId}}.Spring": {
+        //             "Id": "{{ModId}}.Spring",
+        //             "Condition": "SEASON spring",
+        //             "Sprite": "Characters/<NPCNAME>_Spring",
+        //             "Portrait": "Portraits/<NPCNAME>_Spring",
+        //             "Precedence": -100
+        //         },
+        //         //festivals
+        //         "{{ModId}}.<NPCNAME>Flower": {
+        //             "Id": "{{ModId}}.<NPCNAME>Flower",
+        //             "Condition": "IS_EVENT festival_spring24",
+        //             "Sprite": "Characters/<NPCNAME>_Flower",
+        //             "Portrait": "Portraits/<NPCNAME>_Flower",
+        //             "Precedence": -100
+        //         },
+        //         //beach
+        //         "{{ModId}}.<NPCNAME>Beach": {
+        //             "Id": "{{ModId}}.<NPCNAME>Beach",
+        //             "Sprite": "Characters/<NPCNAME>_Beach",
+        //             "Portrait": "Portraits/<NPCNAME>_Beach",
+        //             "IsIslandAttire": true,
+        //             "Precedence": -1000
+        //         }
+        //     }
+        // }
+    ]
+}
