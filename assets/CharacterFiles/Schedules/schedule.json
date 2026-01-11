@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "LuyaDew-Schedules",
+            "Action": "EditData",
+            "Target": "Character/Schedules/{{ModId}}_luya",
+            "Entries": {
+                "Spring": "",//beach 88 31 
+                "Summer": "",
+                "Fall": "",
+                "Winter": ""
+            }
+        }
+    ]
+}

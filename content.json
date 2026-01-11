@@ -208,8 +208,8 @@
                },
                "IsOutdoors": false,
                "DefaultArrivalTile": {
-                  "X": 16,
-                  "Y": 12
+                  "X": 5,
+                  "Y": 8
                }
             }
          }
@@ -241,6 +241,11 @@
          "LogName" :"LuyaDew-LoadDialogue",
          "Action":"Include",
          "FromFile":"assets/CharacterFiles/Dialouge/dialugoue.json"
+      },
+      {
+         "LogName" :"{{ModID}}_schedule",
+         "Action":"Include",
+         "FromFile":"assets/CharacterFiles/Schedules/schedule.json"
       }
    ]
 }
