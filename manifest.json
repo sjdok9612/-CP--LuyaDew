@@ -4,8 +4,18 @@
     "Version": "1.0.0",
     "Description": "LUYA FANMODE for SDV",
     "UniqueID": "BasakToasts.LuyaDew",
-    "UpdateKeys": [], 
+    "UpdateKeys": [],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "DLX.Bundles",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "IsRequired": true
+        }
+    ]
 }

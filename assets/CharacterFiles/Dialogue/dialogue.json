@@ -3,19 +3,19 @@
         {
             "LogName": "Luyadew_dialouge",
             "Action": "EditData",
-            "Target": "Character/Dialogue/{{ModId}}_luya",
+            "Target": "Characters/Dialogue/{{ModId}}_KimLuya",
             "Entries": {
                 //SPECIAL DIALOGUE
-                "Introduction": "루땡이등장! 나는 루야라고해~ $b 보석 바다에 와보고싶었는데 드디어 왔네! $t luyaArrived #$e# $b 저번에 왔을때는 항구밑에 쓰레기때문에 그냥 돌아갔었거든! 누가 쓰레기를 다 치운거지?",
+                "luyaArrived": "루땡이등장! 나는 루야라고해~ #$b# 보석 바다에 와보고싶었는데 드디어 왔네! $t luyaArrived #$e# #$b# 저번에 왔을때는 항구밑에 쓰레기때문에 그냥 돌아갔었거든! 누가 쓰레기를 다 치운거지?",
                 //"Resort_Entering": "it its Resort_Entering dialogue.",
                 //"Resort_Leaving": "it is Resort_Leaving dialogue.",
                 //"Resort_Shore": "it is Resort_shore",
                 //"Resort_Chair": "it is Resort_Chair dialogue.",
                 //"Resort_Bar": "it is Resort_Bar dialogue.",
                 //"Resort": "it is Resort dialogue.",
-                "Reject_346": "으.. 맥주말고 소주는 없어? $s#$e# 난 소주가 더 좋은데..",
+                "Reject_346": "으.. 맥주말고 소주는 없어? #$s#$e# 난 소주가 더 좋은데..",
                 "GreenRain": "초록비라니... 맞으면 독 상태이상에 걸릴게 분명해",
-                "GreenRain_2": "건강에 해롭지 않다는 걸 아니까 안무서워. $b 좀 노잼이긴하지만",
+                "GreenRain_2": "건강에 해롭지 않다는 걸 아니까 안무서워. #$b# 좀 노잼이긴하지만",
                 "AcceptGift_(O)StardropTea": "별방울차! 이걸 나한테 주는거야? 고마워 @!",
                 "AcceptGift_(O)836": "나한테 가오리를 주는거야? 소중히 기를게!",
                 "AcceptGift_(O)336": "저기.. 난 피글린이 아냐 @.... 근데 고마워!",

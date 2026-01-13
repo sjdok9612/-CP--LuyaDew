@@ -110,6 +110,13 @@
             "Language": "ko"
          }
       },
+      //번들 패치
+      {
+         "LogName": "Load LuyaBundle Note",
+         "Action": "Load",
+         "Target": "Mods/CommunityCenterGym/Assets/GymJunimoNote",
+         "FromFile": "assets/GymJunimoNote.png"
+      },
       //close:: default
       // 잠수함 패치(두 패치를 각각 다른파일로 분리할경우 우선순위( priority ) 설정필요함)
       {
@@ -222,30 +229,30 @@
       },
       //Character import
       {
-         "LogName":"LuyaDew-Black JSON load",
-         "Action":"Load",
-         "Target":"Character/Diualogue/{{ModId}}_luya,Characters/schedules/{{ModId}}_luya,Strings/schedules/{{ModId}}_luya",
-         "FromFile":"assets/blank.json"
+         "LogName": "LuyaDew-Black JSON load",
+         "Action": "Load",
+         "Target": "Characters/Dialogue/{{ModId}}_KimLuya,Characters/schedules/{{ModId}}_KimLuya,Strings/schedules/{{ModId}}_KimLuya",
+         "FromFile": "assets/blank.json"
       },
       {
-        	"LogName": "LuyaDew-dispos",
-   		 "Action": "Include",
-   		 "FromFile": "assets/CharacterFiles/data/dispos.json"
-    	},
-      {
-         "LogName":"LuyaDew-Appearance",
-         "Action":"Include",
-         "FromFile":"assets/CharacterFiles/data/appearance.json"
+         "LogName": "LuyaDew-dispos",
+         "Action": "Include",
+         "FromFile": "assets/CharacterFiles/data/dispos.json"
       },
       {
-         "LogName" :"LuyaDew-LoadDialogue",
-         "Action":"Include",
-         "FromFile":"assets/CharacterFiles/Dialouge/dialugoue.json"
+         "LogName": "LuyaDew-Appearance",
+         "Action": "Include",
+         "FromFile": "assets/CharacterFiles/data/appearance.json"
       },
       {
-         "LogName" :"{{ModID}}_schedule",
-         "Action":"Include",
-         "FromFile":"assets/CharacterFiles/Schedules/schedule.json"
+         "LogName": "LuyaDew-LoadDialogue",
+         "Action": "Include",
+         "FromFile": "assets/CharacterFiles/Dialogue/dialogue.json"
+      },
+      {
+         "LogName": "{{ModID}}_schedule",
+         "Action": "Include",
+         "FromFile": "assets/CharacterFiles/Schedules/schedule.json"
       }
    ]
 }

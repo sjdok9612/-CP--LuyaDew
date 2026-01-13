@@ -3,12 +3,9 @@
         {
             "LogName": "LuyaDew-Schedules",
             "Action": "EditData",
-            "Target": "Character/Schedules/{{ModId}}_luya",
+            "Target": "Characters/Schedules/{{ModId}}_KimLuya",
             "Entries": {
-                "Spring": "",//beach 88 31 
-                "Summer": "",
-                "Fall": "",
-                "Winter": ""
+                "spring": "1000 Beach 88 31/2000 BasakToasts.LuyaSubmarine 5 8",//luya sleep 을 넣을까?
             }
         }
     ]
