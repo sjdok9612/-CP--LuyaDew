@@ -114,8 +114,40 @@
       {
          "LogName": "Load LuyaBundle Note",
          "Action": "Load",
-         "Target": "Mods/CommunityCenterGym/Assets/GymJunimoNote",
-         "FromFile": "assets/GymJunimoNote.png"
+         "Target": "Mods/Bundles/BundleNote", //바닐라에 명명되지 않은 위치임
+         "FromFile": "assets/Bundles/BundleNote.png"
+      },
+      {
+         "LogName": "Load LuyaBundle Icon",
+         "Action": "Load",
+         "Target": "Mods/Bundles/BundleIcon", //바닐라에 명명되지 않은 위치임
+         "FromFile": "assets/Bundles/BundleIcon.png"
+      },
+      { //Todo: 번들 데이터 추가
+         "LogName": "Luya Bundle - Data/BundleData",
+         "Action": "EditData",
+         "Target": "UnlockableBundles/Bundles",
+         "Entries": {
+            "LuyaDew_Bundle": {
+               "Location": "Beach",
+               "BundleName": "항구 생태 번들",
+               "BundleIconAsset": "Mods/Bundles/BundleIcon",
+               "JunimoNoteTexture": "Mods/Bundles/BundleNote",
+               "ShopPosition": "86 40",
+               "ShopType": "CCBundle",
+               "BundleSlots": 4,
+               "DrawQuestionMarks": true,
+               "QuestionMarkOffset": "32, 32",
+               "Price": {
+                  // "196:": 1, // Salad
+                  // "335:": 10, // Iron Bar
+                  // "388:": 50, // Wood
+                  // "709:": 10, // HardWood
+                  // "428:": 10, // Cloth
+                  // "432:": 5 // Truffle Oil
+               },
+            }
+         }
       },
       //close:: default
       // 잠수함 패치(두 패치를 각각 다른파일로 분리할경우 우선순위( priority ) 설정필요함)
@@ -161,7 +193,7 @@
             "Height": 1
          },
          "PatchMode": "Overlay",
-         //"DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
+         "DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
       },
       // light on 83 41
       {
@@ -195,7 +227,8 @@
                "Value": "83 43 8",
                "Delimiter": " "
             }
-         ]
+         ],
+         "DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
       },
       //custom location init
       {
@@ -219,13 +252,15 @@
                   "Y": 8
                }
             }
-         }
+         },
+         "DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
       },
       {
          "LogName": "submarine(open) - maps",
          "Action": "EditMap",
          "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/luyasubmarineOpen.tmx"
+         "FromFile": "assets/Maps/luyasubmarineOpen.tmx",
+         "DayOfMonth": "32" //번들을 완료했다 AND 루야의 활동시간이다
       },
       //Character import
       {
